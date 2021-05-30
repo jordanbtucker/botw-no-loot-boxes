@@ -71,7 +71,7 @@ param_root: !list
       ApproachType: 0
       OccurrenceSpeedType: 0
       ColumnNum: 1
-      ItemName01: !str64 Weapon_Spear_027
+      ItemName01: !str64 Armor_181_Head
       ItemProbability01: 100.0
     GreatHit(Normal): !obj
       RepeatNumMin: 1
@@ -94,11 +94,7 @@ param_root: !list
       RepeatNumMax: 1
       ApproachType: 0
       OccurrenceSpeedType: 0
-      ColumnNum: 3
-      ItemName01: !str64 Item_Ore_A
-      ItemProbability01: 40.0
-      ItemName02: !str64 Weapon_Spear_028
-      ItemProbability02: 40.0
-      ItemName03: !str64 Armor_181_Head
-      ItemProbability03: 20.0
+      ColumnNum: 1
+      ItemName01: !str64 Armor_181_Head
+      ItemProbability01: 100.0
   lists: {}
