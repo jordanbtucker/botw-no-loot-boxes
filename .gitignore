@@ -1,5 +1,1 @@
-*.sbactorpack
-*.bdrop
-*.bmodellist
-*.baiprog
-*.bxml
+/content
