@@ -1,6 +1,7 @@
 # Converts *.yml files to *.bdrop files and packs them into *.sbactorpack files.
 
-$outDir = ".\out\content\Actor\Pack"
+$outRoot = ".\out"
+$outDir = "$outRoot\content\Actor\Pack"
 $packsDir = ".\src\packs"
 $tablesDir = ".\src\tables"
 $extractRoot = ".\tmp\content\Actor\Pack"
@@ -24,3 +25,6 @@ Get-ChildItem -File "$packsDir\*.sbactorpack" | ForEach-Object {
   $baseName = $_.BaseName
   sarc u "$extractRoot\$baseName" "$outDir\$baseName.sbactorpack"
 }
+
+# Copy info.json
+Copy-Item -Force .\src\info.json "$outRoot\info.json"
