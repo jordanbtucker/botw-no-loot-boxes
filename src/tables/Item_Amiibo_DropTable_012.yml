@@ -20,11 +20,11 @@ param_root: !list
       ApproachType: 0
       OccurrenceSpeedType: 0
       ColumnNum: 3
-      ItemName01: !str64 Item_Ore_H
+      ItemName01: !str64 Item_Ore_H # Rock Salt
       ItemProbability01: 60.0
-      ItemName02: !str64 Item_Ore_I
+      ItemName02: !str64 Item_Ore_I # Flint
       ItemProbability02: 30.0
-      ItemName03: !str64 Item_Ore_F
+      ItemName03: !str64 Item_Ore_F # Amber
       ItemProbability03: 10.0
     SmallHit: !obj
       RepeatNumMin: 1
@@ -32,15 +32,15 @@ param_root: !list
       ApproachType: 0
       OccurrenceSpeedType: 0
       ColumnNum: 5
-      ItemName01: !str64 Item_Ore_E
+      ItemName01: !str64 Item_Ore_E # Opal
       ItemProbability01: 50.0
-      ItemName02: !str64 Item_Ore_G
+      ItemName02: !str64 Item_Ore_G # Luminous Stone
       ItemProbability02: 20.0
-      ItemName03: !str64 Item_Ore_D
+      ItemName03: !str64 Item_Ore_D # Topaz
       ItemProbability03: 10.0
-      ItemName04: !str64 Item_Ore_B
+      ItemName04: !str64 Item_Ore_B # Ruby
       ItemProbability04: 10.0
-      ItemName05: !str64 Item_Ore_C
+      ItemName05: !str64 Item_Ore_C # Sapphire
       ItemProbability05: 10.0
     BigHit(Normal): !obj
       RepeatNumMin: 1
@@ -48,7 +48,7 @@ param_root: !list
       ApproachType: 0
       OccurrenceSpeedType: 0
       ColumnNum: 1
-      ItemName01: !str64 Weapon_Lsword_001
+      ItemName01: !str64 Weapon_Lsword_001 # Traveler's Claymore
       ItemProbability01: 100.0
     BigHit(Parasail): !obj
       RepeatNumMin: 1
@@ -56,7 +56,7 @@ param_root: !list
       ApproachType: 0
       OccurrenceSpeedType: 0
       ColumnNum: 1
-      ItemName01: !str64 Weapon_Lsword_036
+      ItemName01: !str64 Weapon_Lsword_036 # Cobble Crusher
       ItemProbability01: 100.0
     BigHit(Remain): !obj
       RepeatNumMin: 1
@@ -64,7 +64,7 @@ param_root: !list
       ApproachType: 0
       OccurrenceSpeedType: 0
       ColumnNum: 1
-      ItemName01: !str64 Armor_183_Head
+      ItemName01: !str64 Armor_183_Head # Vah Rudania Divine Helm
       ItemProbability01: 100.0
     GreatHit(Normal): !obj
       RepeatNumMin: 1
@@ -78,9 +78,9 @@ param_root: !list
       ApproachType: 0
       OccurrenceSpeedType: 0
       ColumnNum: 2
-      ItemName01: !str64 Item_Ore_A
+      ItemName01: !str64 Item_Ore_A # Diamond
       ItemProbability01: 20.0
-      ItemName02: !str64 Weapon_Lsword_002
+      ItemName02: !str64 Weapon_Lsword_002 # Soldier's Claymore
       ItemProbability02: 80.0
     GreatHit(Remain): !obj
       RepeatNumMin: 1
@@ -88,6 +88,6 @@ param_root: !list
       ApproachType: 0
       OccurrenceSpeedType: 0
       ColumnNum: 1
-      ItemName01: !str64 Armor_183_Head
+      ItemName01: !str64 Armor_183_Head # Vah Rudania Divine Helm
       ItemProbability01: 100.0
   lists: {}

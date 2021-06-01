@@ -20,27 +20,27 @@ param_root: !list
       ApproachType: 0
       OccurrenceSpeedType: 0
       ColumnNum: 11
-      ItemName01: !str64 Item_Fruit_A
+      ItemName01: !str64 Item_Fruit_A # Apple
       ItemProbability01: 20.0
-      ItemName02: !str64 Item_Fruit_G
+      ItemName02: !str64 Item_Fruit_G # Palm Fruit
       ItemProbability02: 10.0
-      ItemName03: !str64 Item_Fruit_B
+      ItemName03: !str64 Item_Fruit_B # Wildberry
       ItemProbability03: 15.0
-      ItemName04: !str64 Item_Fruit_K
+      ItemName04: !str64 Item_Fruit_K # Acorn
       ItemProbability04: 10.0
-      ItemName05: !str64 Item_Fruit_L
+      ItemName05: !str64 Item_Fruit_L # Chickaloo Tree Nut
       ItemProbability05: 10.0
-      ItemName06: !str64 Item_Fruit_F
+      ItemName06: !str64 Item_Fruit_F # Hydromelon
       ItemProbability06: 5.0
-      ItemName07: !str64 Item_Fruit_I
+      ItemName07: !str64 Item_Fruit_I # Spicy Pepper
       ItemProbability07: 5.0
-      ItemName08: !str64 Item_Fruit_C
+      ItemName08: !str64 Item_Fruit_C # Voltfruit
       ItemProbability08: 5.0
-      ItemName09: !str64 Item_Fruit_E
+      ItemName09: !str64 Item_Fruit_E # Fleet-Lotus Seeds
       ItemProbability09: 5.0
-      ItemName10: !str64 Item_Fruit_H
+      ItemName10: !str64 Item_Fruit_H # Mighty Bananas
       ItemProbability10: 5.0
-      ItemName11: !str64 Obj_ArrowBundle_A_01
+      ItemName11: !str64 Obj_ArrowBundle_A_01 # Arrow x5
       ItemProbability11: 10.0
     SmallHit: !obj
       RepeatNumMin: 1
@@ -48,9 +48,9 @@ param_root: !list
       ApproachType: 0
       OccurrenceSpeedType: 0
       ColumnNum: 2
-      ItemName01: !str64 Item_Fruit_D
+      ItemName01: !str64 Item_Fruit_D # Hearty Durian
       ItemProbability01: 70.0
-      ItemName02: !str64 Obj_BombArrow_A_02
+      ItemName02: !str64 Obj_BombArrow_A_02 # Bomb Arrow x5
       ItemProbability02: 30.0
     BigHit(Normal): !obj
       RepeatNumMin: 1
@@ -58,7 +58,7 @@ param_root: !list
       ApproachType: 0
       OccurrenceSpeedType: 0
       ColumnNum: 1
-      ItemName01: !str64 Weapon_Bow_001
+      ItemName01: !str64 Weapon_Bow_001 # Traveler's Bow
       ItemProbability01: 100.0
     BigHit(Parasail): !obj
       RepeatNumMin: 1
@@ -66,7 +66,7 @@ param_root: !list
       ApproachType: 0
       OccurrenceSpeedType: 0
       ColumnNum: 1
-      ItemName01: !str64 Weapon_Bow_016
+      ItemName01: !str64 Weapon_Bow_016 # Swallow Bow
       ItemProbability01: 100.0
     BigHit(Remain): !obj
       RepeatNumMin: 1
@@ -74,7 +74,7 @@ param_root: !list
       ApproachType: 0
       OccurrenceSpeedType: 0
       ColumnNum: 1
-      ItemName01: !str64 Armor_182_Head
+      ItemName01: !str64 Armor_182_Head # Vah Medoh Divine Helm
       ItemProbability01: 100.0
     GreatHit(Normal): !obj
       RepeatNumMin: 1
@@ -88,9 +88,9 @@ param_root: !list
       ApproachType: 0
       OccurrenceSpeedType: 0
       ColumnNum: 2
-      ItemName01: !str64 Item_Ore_A
+      ItemName01: !str64 Item_Ore_A # Diamond
       ItemProbability01: 20.0
-      ItemName02: !str64 Weapon_Bow_002
+      ItemName02: !str64 Weapon_Bow_002 # Soldier's Bow
       ItemProbability02: 80.0
     GreatHit(Remain): !obj
       RepeatNumMin: 1
@@ -98,6 +98,6 @@ param_root: !list
       ApproachType: 0
       OccurrenceSpeedType: 0
       ColumnNum: 1
-      ItemName01: !str64 Armor_182_Head
+      ItemName01: !str64 Armor_182_Head # Vah Medoh Divine Helm
       ItemProbability01: 100.0
   lists: {}

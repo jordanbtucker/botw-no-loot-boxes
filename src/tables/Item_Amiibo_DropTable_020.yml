@@ -20,25 +20,25 @@ param_root: !list
       ApproachType: 0
       OccurrenceSpeedType: 0
       ColumnNum: 10
-      ItemName01: !str64 Item_PlantGet_A
+      ItemName01: !str64 Item_PlantGet_A # Hyrule Herb
       ItemProbability01: 35.0
-      ItemName02: !str64 Item_PlantGet_E
+      ItemName02: !str64 Item_PlantGet_E # Cool Safflina
       ItemProbability02: 10.0
-      ItemName03: !str64 Item_PlantGet_F
+      ItemName03: !str64 Item_PlantGet_F # Warm Safflina
       ItemProbability03: 10.0
-      ItemName04: !str64 Item_PlantGet_L
+      ItemName04: !str64 Item_PlantGet_L # Electric Safflina
       ItemProbability04: 10.0
-      ItemName05: !str64 Item_PlantGet_M
+      ItemName05: !str64 Item_PlantGet_M # Swift Carrot
       ItemProbability05: 10.0
-      ItemName06: !str64 Item_PlantGet_O
+      ItemName06: !str64 Item_PlantGet_O # Swift Violet
       ItemProbability06: 5.0
-      ItemName07: !str64 Item_PlantGet_G
+      ItemName07: !str64 Item_PlantGet_G # Mighty Thistle
       ItemProbability07: 5.0
-      ItemName08: !str64 Item_PlantGet_H
+      ItemName08: !str64 Item_PlantGet_H # Armoranth
       ItemProbability08: 5.0
-      ItemName09: !str64 Item_Fruit_J
+      ItemName09: !str64 Item_Fruit_J # Fortified Pumpkin
       ItemProbability09: 5.0
-      ItemName10: !str64 Item_PlantGet_I
+      ItemName10: !str64 Item_PlantGet_I # Blue Nightshade
       ItemProbability10: 5.0
     SmallHit: !obj
       RepeatNumMin: 1
@@ -46,13 +46,13 @@ param_root: !list
       ApproachType: 0
       OccurrenceSpeedType: 0
       ColumnNum: 4
-      ItemName01: !str64 Item_PlantGet_B
+      ItemName01: !str64 Item_PlantGet_B # Hearty Radish
       ItemProbability01: 30.0
-      ItemName02: !str64 Item_PlantGet_C
+      ItemName02: !str64 Item_PlantGet_C # Big Hearty Radish
       ItemProbability02: 10.0
-      ItemName03: !str64 Item_PlantGet_Q
+      ItemName03: !str64 Item_PlantGet_Q # Endura Carrot
       ItemProbability03: 40.0
-      ItemName04: !str64 Item_PlantGet_J
+      ItemName04: !str64 Item_PlantGet_J # Silent Princess
       ItemProbability04: 20.0
     BigHit(Normal): !obj
       RepeatNumMin: 1
@@ -60,23 +60,23 @@ param_root: !list
       ApproachType: 0
       OccurrenceSpeedType: 0
       ColumnNum: 9
-      ItemName01: !str64 Item_Ore_F
+      ItemName01: !str64 Item_Ore_F # Amber
       ItemProbability01: 25.0
-      ItemName02: !str64 Item_Ore_E
+      ItemName02: !str64 Item_Ore_E # Opal
       ItemProbability02: 18.0
-      ItemName03: !str64 Item_Ore_D
+      ItemName03: !str64 Item_Ore_D # Topaz
       ItemProbability03: 5.0
-      ItemName04: !str64 Item_Ore_C
+      ItemName04: !str64 Item_Ore_C # Sapphire
       ItemProbability04: 5.0
-      ItemName05: !str64 Item_Ore_B
+      ItemName05: !str64 Item_Ore_B # Ruby
       ItemProbability05: 5.0
-      ItemName06: !str64 Item_Ore_A
+      ItemName06: !str64 Item_Ore_A # Diamond
       ItemProbability06: 1.0
-      ItemName07: !str64 Item_Ore_J
+      ItemName07: !str64 Item_Ore_J # Star Fragment
       ItemProbability07: 1.0
-      ItemName08: !str64 Item_Ore_G
+      ItemName08: !str64 Item_Ore_G # Luminous Stone
       ItemProbability08: 5.0
-      ItemName09: !str64 Weapon_Bow_001
+      ItemName09: !str64 Weapon_Bow_001 # Traveler's Bow
       ItemProbability09: 35.0
     BigHit(Parasail): !obj
       RepeatNumMin: 1
@@ -84,23 +84,23 @@ param_root: !list
       ApproachType: 0
       OccurrenceSpeedType: 0
       ColumnNum: 9
-      ItemName01: !str64 Item_Ore_F
+      ItemName01: !str64 Item_Ore_F # Amber
       ItemProbability01: 5.0
-      ItemName02: !str64 Item_Ore_E
+      ItemName02: !str64 Item_Ore_E # Opal
       ItemProbability02: 30.0
-      ItemName03: !str64 Item_Ore_D
+      ItemName03: !str64 Item_Ore_D # Topaz
       ItemProbability03: 8.0
-      ItemName04: !str64 Item_Ore_C
+      ItemName04: !str64 Item_Ore_C # Sapphire
       ItemProbability04: 8.0
-      ItemName05: !str64 Item_Ore_B
+      ItemName05: !str64 Item_Ore_B # Ruby
       ItemProbability05: 8.0
-      ItemName06: !str64 Item_Ore_A
+      ItemName06: !str64 Item_Ore_A # Diamond
       ItemProbability06: 2.0
-      ItemName07: !str64 Item_Ore_J
+      ItemName07: !str64 Item_Ore_J # Star Fragment
       ItemProbability07: 2.0
-      ItemName08: !str64 Item_Ore_G
+      ItemName08: !str64 Item_Ore_G # Luminous Stone
       ItemProbability08: 5.0
-      ItemName09: !str64 Weapon_Bow_002
+      ItemName09: !str64 Weapon_Bow_002 # Soldier's Bow
       ItemProbability09: 32.0
     BigHit(Remain): !obj
       RepeatNumMin: 1
@@ -108,7 +108,7 @@ param_root: !list
       ApproachType: 0
       OccurrenceSpeedType: 0
       ColumnNum: 1
-      ItemName01: !str64 Weapon_Bow_072
+      ItemName01: !str64 Weapon_Bow_072 # Twilight Bow
       ItemProbability01: 100.0
     GreatHit(Normal): !obj
       RepeatNumMin: 1
@@ -122,7 +122,7 @@ param_root: !list
       ApproachType: 0
       OccurrenceSpeedType: 0
       ColumnNum: 1
-      ItemName01: !str64 Weapon_Bow_035
+      ItemName01: !str64 Weapon_Bow_035 # Knight's Bow
       ItemProbability01: 100.0
     GreatHit(Remain): !obj
       RepeatNumMin: 1
@@ -130,6 +130,6 @@ param_root: !list
       ApproachType: 0
       OccurrenceSpeedType: 0
       ColumnNum: 1
-      ItemName01: !str64 Weapon_Bow_072
+      ItemName01: !str64 Weapon_Bow_072 # Twilight Bow
       ItemProbability01: 100.0
   lists: {}

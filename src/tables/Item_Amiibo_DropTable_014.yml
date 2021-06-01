@@ -20,25 +20,25 @@ param_root: !list
       ApproachType: 0
       OccurrenceSpeedType: 0
       ColumnNum: 10
-      ItemName01: !str64 Animal_Fish_A
+      ItemName01: !str64 Animal_Fish_A # Hyrule Bass
       ItemProbability01: 34.0
-      ItemName02: !str64 Animal_Fish_L
+      ItemName02: !str64 Animal_Fish_L # Staminoka Bass
       ItemProbability02: 10.0
-      ItemName03: !str64 Animal_Fish_C
+      ItemName03: !str64 Animal_Fish_C # Chillfin Trout
       ItemProbability03: 5.0
-      ItemName04: !str64 Animal_Fish_J
+      ItemName04: !str64 Animal_Fish_J # Sizzlefin Trout
       ItemProbability04: 5.0
-      ItemName05: !str64 Animal_Fish_D
+      ItemName05: !str64 Animal_Fish_D # Voltfin Trout
       ItemProbability05: 5.0
-      ItemName06: !str64 Animal_Fish_X
+      ItemName06: !str64 Animal_Fish_X # Stealthfin Trout
       ItemProbability06: 5.0
-      ItemName07: !str64 Animal_Fish_E
+      ItemName07: !str64 Animal_Fish_E # Mighty Carp
       ItemProbability07: 12.0
-      ItemName08: !str64 Animal_Fish_H
+      ItemName08: !str64 Animal_Fish_H # Armored Carp
       ItemProbability08: 12.0
-      ItemName09: !str64 Animal_Fish_F
+      ItemName09: !str64 Animal_Fish_F # Mighty Porgy
       ItemProbability09: 6.0
-      ItemName10: !str64 Animal_Fish_G
+      ItemName10: !str64 Animal_Fish_G # Armored Porgy
       ItemProbability10: 6.0
     SmallHit: !obj
       RepeatNumMin: 1
@@ -46,9 +46,9 @@ param_root: !list
       ApproachType: 0
       OccurrenceSpeedType: 0
       ColumnNum: 2
-      ItemName01: !str64 Animal_Fish_B
+      ItemName01: !str64 Animal_Fish_B # Hearty Bass
       ItemProbability01: 50.0
-      ItemName02: !str64 Animal_Fish_I
+      ItemName02: !str64 Animal_Fish_I # Hearty Salmon
       ItemProbability02: 50.0
     BigHit(Normal): !obj
       RepeatNumMin: 1
@@ -56,7 +56,7 @@ param_root: !list
       ApproachType: 0
       OccurrenceSpeedType: 0
       ColumnNum: 1
-      ItemName01: !str64 Weapon_Spear_001
+      ItemName01: !str64 Weapon_Spear_001 # Traveler's Spear
       ItemProbability01: 100.0
     BigHit(Parasail): !obj
       RepeatNumMin: 1
@@ -64,7 +64,7 @@ param_root: !list
       ApproachType: 0
       OccurrenceSpeedType: 0
       ColumnNum: 1
-      ItemName01: !str64 Weapon_Spear_027
+      ItemName01: !str64 Weapon_Spear_027 # Zora Spear
       ItemProbability01: 100.0
     BigHit(Remain): !obj
       RepeatNumMin: 1
@@ -72,7 +72,7 @@ param_root: !list
       ApproachType: 0
       OccurrenceSpeedType: 0
       ColumnNum: 1
-      ItemName01: !str64 Armor_181_Head
+      ItemName01: !str64 Armor_181_Head # Vah Ruta Divine Helm
       ItemProbability01: 100.0
     GreatHit(Normal): !obj
       RepeatNumMin: 1
@@ -86,9 +86,9 @@ param_root: !list
       ApproachType: 0
       OccurrenceSpeedType: 0
       ColumnNum: 2
-      ItemName01: !str64 Item_Ore_A
+      ItemName01: !str64 Item_Ore_A # Diamond
       ItemProbability01: 20.0
-      ItemName02: !str64 Weapon_Spear_002
+      ItemName02: !str64 Weapon_Spear_002 # Soldier's Spear
       ItemProbability02: 80.0
     GreatHit(Remain): !obj
       RepeatNumMin: 1
@@ -96,6 +96,6 @@ param_root: !list
       ApproachType: 0
       OccurrenceSpeedType: 0
       ColumnNum: 1
-      ItemName01: !str64 Armor_181_Head
+      ItemName01: !str64 Armor_181_Head # Vah Ruta Divine Helm
       ItemProbability01: 100.0
   lists: {}

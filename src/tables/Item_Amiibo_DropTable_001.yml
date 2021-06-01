@@ -20,7 +20,7 @@ param_root: !list
       ApproachType: 0
       OccurrenceSpeedType: 0
       ColumnNum: 1
-      ItemName01: !str64 Barrel
+      ItemName01: !str64 Barrel # Barrel
       ItemProbability01: 100.0
     SmallHit: !obj
       RepeatNumMin: 1
@@ -28,9 +28,9 @@ param_root: !list
       ApproachType: 0
       OccurrenceSpeedType: 0
       ColumnNum: 2
-      ItemName01: !str64 BarrelBomb
+      ItemName01: !str64 BarrelBomb # Bomb Barrel
       ItemProbability01: 60.0
-      ItemName02: !str64 Item_Enemy_02
+      ItemName02: !str64 Item_Enemy_02 # Bokoblin Guts
       ItemProbability02: 40.0
     BigHit(Normal): !obj
       RepeatNumMin: 1
@@ -38,23 +38,23 @@ param_root: !list
       ApproachType: 0
       OccurrenceSpeedType: 0
       ColumnNum: 9
-      ItemName01: !str64 Item_Ore_F
+      ItemName01: !str64 Item_Ore_F # Amber
       ItemProbability01: 30.0
-      ItemName02: !str64 Item_Ore_E
+      ItemName02: !str64 Item_Ore_E # Opal
       ItemProbability02: 13.0
-      ItemName03: !str64 Item_Ore_D
+      ItemName03: !str64 Item_Ore_D # Topaz
       ItemProbability03: 5.0
-      ItemName04: !str64 Item_Ore_C
+      ItemName04: !str64 Item_Ore_C # Sapphire
       ItemProbability04: 5.0
-      ItemName05: !str64 Item_Ore_B
+      ItemName05: !str64 Item_Ore_B # Ruby
       ItemProbability05: 5.0
-      ItemName06: !str64 Item_Ore_A
+      ItemName06: !str64 Item_Ore_A # Diamond
       ItemProbability06: 1.0
-      ItemName07: !str64 Item_Ore_J
+      ItemName07: !str64 Item_Ore_J # Star Fragment
       ItemProbability07: 1.0
-      ItemName08: !str64 Item_Ore_G
+      ItemName08: !str64 Item_Ore_G # Luminous Stone
       ItemProbability08: 10.0
-      ItemName09: !str64 Weapon_Lsword_001
+      ItemName09: !str64 Weapon_Lsword_001 # Traveler's Claymore
       ItemProbability09: 30.0
     BigHit(Parasail): !obj
       RepeatNumMin: 1
@@ -62,29 +62,29 @@ param_root: !list
       ApproachType: 0
       OccurrenceSpeedType: 0
       ColumnNum: 12
-      ItemName01: !str64 Item_Ore_F
+      ItemName01: !str64 Item_Ore_F # Amber
       ItemProbability01: 5.0
-      ItemName02: !str64 Item_Ore_E
+      ItemName02: !str64 Item_Ore_E # Opal
       ItemProbability02: 12.0
-      ItemName03: !str64 Item_Ore_D
+      ItemName03: !str64 Item_Ore_D # Topaz
       ItemProbability03: 10.0
-      ItemName04: !str64 Item_Ore_C
+      ItemName04: !str64 Item_Ore_C # Sapphire
       ItemProbability04: 10.0
-      ItemName05: !str64 Item_Ore_B
+      ItemName05: !str64 Item_Ore_B # Ruby
       ItemProbability05: 10.0
-      ItemName06: !str64 Item_Ore_A
+      ItemName06: !str64 Item_Ore_A # Diamond
       ItemProbability06: 2.0
-      ItemName07: !str64 Item_Ore_J
+      ItemName07: !str64 Item_Ore_J # Star Fragment
       ItemProbability07: 2.0
-      ItemName08: !str64 Item_Ore_G
+      ItemName08: !str64 Item_Ore_G # Luminous Stone
       ItemProbability08: 10.0
-      ItemName09: !str64 Weapon_Lsword_002
+      ItemName09: !str64 Weapon_Lsword_002 # Soldier's Claymore
       ItemProbability09: 10.0
-      ItemName10: !str64 Weapon_Lsword_029
+      ItemName10: !str64 Weapon_Lsword_029 # Golden Claymore
       ItemProbability10: 14.0
-      ItemName11: !str64 Item_Enemy_08
+      ItemName11: !str64 Item_Enemy_08 # Moblin Guts
       ItemProbability11: 10.0
-      ItemName12: !str64 Item_Enemy_05
+      ItemName12: !str64 Item_Enemy_05 # Lizalfos Tail
       ItemProbability12: 5.0
     BigHit(Remain): !obj
       RepeatNumMin: 1
@@ -92,7 +92,7 @@ param_root: !list
       ApproachType: 0
       OccurrenceSpeedType: 0
       ColumnNum: 1
-      ItemName02: !str64 Weapon_Lsword_057
+      ItemName02: !str64 Weapon_Lsword_057 # Sword of the Six Sages
       ItemProbability02: 100.0
     GreatHit(Normal): !obj
       RepeatNumMin: 1
@@ -106,7 +106,7 @@ param_root: !list
       ApproachType: 0
       OccurrenceSpeedType: 0
       ColumnNum: 1
-      ItemName01: !str64 Weapon_Lsword_003
+      ItemName01: !str64 Weapon_Lsword_003 # Knight's Claymore
       ItemProbability01: 100.0
     GreatHit(Remain): !obj
       RepeatNumMin: 1
@@ -114,6 +114,6 @@ param_root: !list
       ApproachType: 0
       OccurrenceSpeedType: 0
       ColumnNum: 1
-      ItemName02: !str64 Weapon_Lsword_057
+      ItemName02: !str64 Weapon_Lsword_057 # Sword of the Six Sages
       ItemProbability02: 100.0
   lists: {}

@@ -20,25 +20,25 @@ param_root: !list
       ApproachType: 0
       OccurrenceSpeedType: 0
       ColumnNum: 10
-      ItemName01: !str64 Animal_Fish_A
+      ItemName01: !str64 Animal_Fish_A # Hyrule Bass
       ItemProbability01: 34.0
-      ItemName02: !str64 Animal_Fish_L
+      ItemName02: !str64 Animal_Fish_L # Staminoka Bass
       ItemProbability02: 10.0
-      ItemName03: !str64 Animal_Fish_C
+      ItemName03: !str64 Animal_Fish_C # Chillfin Trout
       ItemProbability03: 5.0
-      ItemName04: !str64 Animal_Fish_J
+      ItemName04: !str64 Animal_Fish_J # Sizzlefin Trout
       ItemProbability04: 5.0
-      ItemName05: !str64 Animal_Fish_D
+      ItemName05: !str64 Animal_Fish_D # Voltfin Trout
       ItemProbability05: 5.0
-      ItemName06: !str64 Animal_Fish_X
+      ItemName06: !str64 Animal_Fish_X # Stealthfin Trout
       ItemProbability06: 5.0
-      ItemName07: !str64 Animal_Fish_E
+      ItemName07: !str64 Animal_Fish_E # Mighty Carp
       ItemProbability07: 12.0
-      ItemName08: !str64 Animal_Fish_H
+      ItemName08: !str64 Animal_Fish_H # Armored Carp
       ItemProbability08: 12.0
-      ItemName09: !str64 Animal_Fish_F
+      ItemName09: !str64 Animal_Fish_F # Mighty Porgy
       ItemProbability09: 6.0
-      ItemName10: !str64 Animal_Fish_G
+      ItemName10: !str64 Animal_Fish_G # Armored Porgy
       ItemProbability10: 6.0
     SmallHit: !obj
       RepeatNumMin: 1
@@ -46,11 +46,11 @@ param_root: !list
       ApproachType: 0
       OccurrenceSpeedType: 0
       ColumnNum: 3
-      ItemName01: !str64 Animal_Fish_B
+      ItemName01: !str64 Animal_Fish_B # Hearty Bass
       ItemProbability01: 30.0
-      ItemName02: !str64 Animal_Fish_I
+      ItemName02: !str64 Animal_Fish_I # Hearty Salmon
       ItemProbability02: 40.0
-      ItemName03: !str64 Obj_ArrowBundle_A_01
+      ItemName03: !str64 Obj_ArrowBundle_A_01 # Arrow x5
       ItemProbability03: 30.0
     BigHit(Normal): !obj
       RepeatNumMin: 1
@@ -58,11 +58,11 @@ param_root: !list
       ApproachType: 0
       OccurrenceSpeedType: 0
       ColumnNum: 3
-      ItemName01: !str64 Armor_205_Head
+      ItemName01: !str64 Armor_205_Head # Cap of the Wind
       ItemProbability01: 34.0
-      ItemName02: !str64 Armor_205_Upper
+      ItemName02: !str64 Armor_205_Upper # Tunic of the Wind
       ItemProbability02: 33.0
-      ItemName03: !str64 Armor_205_Lower
+      ItemName03: !str64 Armor_205_Lower # Trousers of the Wind
       ItemProbability03: 33.0
     BigHit(Parasail): !obj
       RepeatNumMin: 1
@@ -70,13 +70,13 @@ param_root: !list
       ApproachType: 0
       OccurrenceSpeedType: 0
       ColumnNum: 4
-      ItemName01: !str64 Armor_205_Head
+      ItemName01: !str64 Armor_205_Head # Cap of the Wind
       ItemProbability01: 25.0
-      ItemName02: !str64 Armor_205_Upper
+      ItemName02: !str64 Armor_205_Upper # Tunic of the Wind
       ItemProbability02: 25.0
-      ItemName03: !str64 Armor_205_Lower
+      ItemName03: !str64 Armor_205_Lower # Trousers of the Wind
       ItemProbability03: 25.0
-      ItemName04: !str64 Weapon_Sword_059
+      ItemName04: !str64 Weapon_Sword_059 # Sea-Breeze Boomerang
       ItemProbability04: 25.0
     BigHit(Remain): !obj
       RepeatNumMin: 1
@@ -84,13 +84,13 @@ param_root: !list
       ApproachType: 0
       OccurrenceSpeedType: 0
       ColumnNum: 4
-      ItemName01: !str64 Armor_205_Head
+      ItemName01: !str64 Armor_205_Head # Cap of the Wind
       ItemProbability01: 25.0
-      ItemName02: !str64 Armor_205_Upper
+      ItemName02: !str64 Armor_205_Upper # Tunic of the Wind
       ItemProbability02: 25.0
-      ItemName03: !str64 Armor_205_Lower
+      ItemName03: !str64 Armor_205_Lower # Trousers of the Wind
       ItemProbability03: 25.0
-      ItemName04: !str64 Weapon_Sword_059
+      ItemName04: !str64 Weapon_Sword_059 # Sea-Breeze Boomerang
       ItemProbability04: 25.0
     GreatHit(Normal): !obj
       RepeatNumMin: 1
@@ -98,11 +98,11 @@ param_root: !list
       ApproachType: 0
       OccurrenceSpeedType: 0
       ColumnNum: 3
-      ItemName01: !str64 Armor_205_Head
+      ItemName01: !str64 Armor_205_Head # Cap of the Wind
       ItemProbability01: 34.0
-      ItemName02: !str64 Armor_205_Upper
+      ItemName02: !str64 Armor_205_Upper # Tunic of the Wind
       ItemProbability02: 33.0
-      ItemName03: !str64 Armor_205_Lower
+      ItemName03: !str64 Armor_205_Lower # Trousers of the Wind
       ItemProbability03: 33.0
     GreatHit(Parasail): !obj
       RepeatNumMin: 1
@@ -110,13 +110,13 @@ param_root: !list
       ApproachType: 0
       OccurrenceSpeedType: 0
       ColumnNum: 4
-      ItemName01: !str64 Armor_205_Head
+      ItemName01: !str64 Armor_205_Head # Cap of the Wind
       ItemProbability01: 25.0
-      ItemName02: !str64 Armor_205_Upper
+      ItemName02: !str64 Armor_205_Upper # Tunic of the Wind
       ItemProbability02: 25.0
-      ItemName03: !str64 Armor_205_Lower
+      ItemName03: !str64 Armor_205_Lower # Trousers of the Wind
       ItemProbability03: 25.0
-      ItemName04: !str64 Weapon_Sword_059
+      ItemName04: !str64 Weapon_Sword_059 # Sea-Breeze Boomerang
       ItemProbability04: 25.0
     GreatHit(Remain): !obj
       RepeatNumMin: 1
@@ -124,12 +124,12 @@ param_root: !list
       ApproachType: 0
       OccurrenceSpeedType: 0
       ColumnNum: 4
-      ItemName01: !str64 Armor_205_Head
+      ItemName01: !str64 Armor_205_Head # Cap of the Wind
       ItemProbability01: 25.0
-      ItemName02: !str64 Armor_205_Upper
+      ItemName02: !str64 Armor_205_Upper # Tunic of the Wind
       ItemProbability02: 25.0
-      ItemName03: !str64 Armor_205_Lower
+      ItemName03: !str64 Armor_205_Lower # Trousers of the Wind
       ItemProbability03: 25.0
-      ItemName04: !str64 Weapon_Sword_059
+      ItemName04: !str64 Weapon_Sword_059 # Sea-Breeze Boomerang
       ItemProbability04: 25.0
   lists: {}

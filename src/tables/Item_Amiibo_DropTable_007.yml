@@ -20,25 +20,25 @@ param_root: !list
       ApproachType: 0
       OccurrenceSpeedType: 0
       ColumnNum: 10
-      ItemName01: !str64 Item_Fruit_A
+      ItemName01: !str64 Item_Fruit_A # Apple
       ItemProbability01: 15.0
-      ItemName02: !str64 Item_Fruit_G
+      ItemName02: !str64 Item_Fruit_G # Palm Fruit
       ItemProbability02: 10.0
-      ItemName03: !str64 Item_Fruit_B
+      ItemName03: !str64 Item_Fruit_B # Wildberry
       ItemProbability03: 10.0
-      ItemName04: !str64 Item_Fruit_K
+      ItemName04: !str64 Item_Fruit_K # Acorn
       ItemProbability04: 10.0
-      ItemName05: !str64 Item_Fruit_L
+      ItemName05: !str64 Item_Fruit_L # Chickaloo Tree Nut
       ItemProbability05: 10.0
-      ItemName06: !str64 Item_Fruit_F
+      ItemName06: !str64 Item_Fruit_F # Hydromelon
       ItemProbability06: 10.0
-      ItemName07: !str64 Item_Fruit_I
+      ItemName07: !str64 Item_Fruit_I # Spicy Pepper
       ItemProbability07: 10.0
-      ItemName08: !str64 Item_Fruit_C
+      ItemName08: !str64 Item_Fruit_C # Voltfruit
       ItemProbability08: 10.0
-      ItemName09: !str64 Item_Fruit_E
+      ItemName09: !str64 Item_Fruit_E # Fleet-Lotus Seeds
       ItemProbability09: 10.0
-      ItemName10: !str64 Item_Fruit_H
+      ItemName10: !str64 Item_Fruit_H # Mighty Bananas
       ItemProbability10: 5.0
     SmallHit: !obj
       RepeatNumMin: 1
@@ -46,9 +46,9 @@ param_root: !list
       ApproachType: 0
       OccurrenceSpeedType: 0
       ColumnNum: 2
-      ItemName01: !str64 Item_Fruit_D
+      ItemName01: !str64 Item_Fruit_D # Hearty Durian
       ItemProbability01: 40.0
-      ItemName02: !str64 Obj_ArrowBundle_A_01
+      ItemName02: !str64 Obj_ArrowBundle_A_01 # Arrow x5
       ItemProbability02: 60.0
     BigHit(Normal): !obj
       RepeatNumMin: 1
@@ -56,11 +56,11 @@ param_root: !list
       ApproachType: 0
       OccurrenceSpeedType: 0
       ColumnNum: 3
-      ItemName01: !str64 Armor_210_Head
+      ItemName01: !str64 Armor_210_Head # Cap of Twilight
       ItemProbability01: 34.0
-      ItemName02: !str64 Armor_210_Upper
+      ItemName02: !str64 Armor_210_Upper # Tunic of Twilight
       ItemProbability02: 33.0
-      ItemName03: !str64 Armor_210_Lower
+      ItemName03: !str64 Armor_210_Lower # Trousers of Twilight
       ItemProbability03: 33.0
     BigHit(Parasail): !obj
       RepeatNumMin: 1
@@ -68,11 +68,11 @@ param_root: !list
       ApproachType: 0
       OccurrenceSpeedType: 0
       ColumnNum: 3
-      ItemName01: !str64 Armor_210_Head
+      ItemName01: !str64 Armor_210_Head # Cap of Twilight
       ItemProbability01: 34.0
-      ItemName02: !str64 Armor_210_Upper
+      ItemName02: !str64 Armor_210_Upper # Tunic of Twilight
       ItemProbability02: 33.0
-      ItemName03: !str64 Armor_210_Lower
+      ItemName03: !str64 Armor_210_Lower # Trousers of Twilight
       ItemProbability03: 33.0
     BigHit(Remain): !obj
       RepeatNumMin: 1
@@ -80,11 +80,11 @@ param_root: !list
       ApproachType: 0
       OccurrenceSpeedType: 0
       ColumnNum: 3
-      ItemName01: !str64 Armor_210_Head
+      ItemName01: !str64 Armor_210_Head # Cap of Twilight
       ItemProbability01: 34.0
-      ItemName02: !str64 Armor_210_Upper
+      ItemName02: !str64 Armor_210_Upper # Tunic of Twilight
       ItemProbability02: 33.0
-      ItemName03: !str64 Armor_210_Lower
+      ItemName03: !str64 Armor_210_Lower # Trousers of Twilight
       ItemProbability03: 33.0
     GreatHit(Normal): !obj
       RepeatNumMin: 1
@@ -92,11 +92,11 @@ param_root: !list
       ApproachType: 0
       OccurrenceSpeedType: 0
       ColumnNum: 3
-      ItemName01: !str64 Armor_210_Head
+      ItemName01: !str64 Armor_210_Head # Cap of Twilight
       ItemProbability01: 34.0
-      ItemName02: !str64 Armor_210_Upper
+      ItemName02: !str64 Armor_210_Upper # Tunic of Twilight
       ItemProbability02: 33.0
-      ItemName03: !str64 Armor_210_Lower
+      ItemName03: !str64 Armor_210_Lower # Trousers of Twilight
       ItemProbability03: 33.0
     GreatHit(Parasail): !obj
       RepeatNumMin: 1
@@ -104,11 +104,11 @@ param_root: !list
       ApproachType: 0
       OccurrenceSpeedType: 0
       ColumnNum: 3
-      ItemName01: !str64 Armor_210_Head
+      ItemName01: !str64 Armor_210_Head # Cap of Twilight
       ItemProbability01: 34.0
-      ItemName02: !str64 Armor_210_Upper
+      ItemName02: !str64 Armor_210_Upper # Tunic of Twilight
       ItemProbability02: 33.0
-      ItemName03: !str64 Armor_210_Lower
+      ItemName03: !str64 Armor_210_Lower # Trousers of Twilight
       ItemProbability03: 33.0
     GreatHit(Remain): !obj
       RepeatNumMin: 1
@@ -116,10 +116,10 @@ param_root: !list
       ApproachType: 0
       OccurrenceSpeedType: 0
       ColumnNum: 3
-      ItemName01: !str64 Armor_210_Head
+      ItemName01: !str64 Armor_210_Head # Cap of Twilight
       ItemProbability01: 34.0
-      ItemName02: !str64 Armor_210_Upper
+      ItemName02: !str64 Armor_210_Upper # Tunic of Twilight
       ItemProbability02: 33.0
-      ItemName03: !str64 Armor_210_Lower
+      ItemName03: !str64 Armor_210_Lower # Trousers of Twilight
       ItemProbability03: 33.0
   lists: {}

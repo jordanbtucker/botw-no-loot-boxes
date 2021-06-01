@@ -20,23 +20,23 @@ param_root: !list
       ApproachType: 0
       OccurrenceSpeedType: 0
       ColumnNum: 9
-      ItemName01: !str64 Item_Mushroom_E
+      ItemName01: !str64 Item_Mushroom_E # Hylian Shroom
       ItemProbability01: 35.0
-      ItemName02: !str64 Item_Mushroom_A
+      ItemName02: !str64 Item_Mushroom_A # Stamella Shroom
       ItemProbability02: 5.0
-      ItemName03: !str64 Item_Mushroom_B
+      ItemName03: !str64 Item_Mushroom_B # Chillshroom
       ItemProbability03: 10.0
-      ItemName04: !str64 Item_Mushroom_C
+      ItemName04: !str64 Item_Mushroom_C # Sunshroom
       ItemProbability04: 10.0
-      ItemName05: !str64 Item_Mushroom_H
+      ItemName05: !str64 Item_Mushroom_H # Zapshroom
       ItemProbability05: 10.0
-      ItemName06: !str64 Item_MushroomGet_D
+      ItemName06: !str64 Item_MushroomGet_D # Rushroom
       ItemProbability06: 10.0
-      ItemName07: !str64 Item_Mushroom_L
+      ItemName07: !str64 Item_Mushroom_L # Razorshroom
       ItemProbability07: 5.0
-      ItemName08: !str64 Item_Mushroom_M
+      ItemName08: !str64 Item_Mushroom_M # Ironshroom
       ItemProbability08: 5.0
-      ItemName09: !str64 Item_Mushroom_J
+      ItemName09: !str64 Item_Mushroom_J # Silent Shroom
       ItemProbability09: 10.0
     SmallHit: !obj
       RepeatNumMin: 1
@@ -44,13 +44,13 @@ param_root: !list
       ApproachType: 0
       OccurrenceSpeedType: 0
       ColumnNum: 4
-      ItemName01: !str64 Item_Mushroom_O
+      ItemName01: !str64 Item_Mushroom_O # Endura Shroom
       ItemProbability01: 35.0
-      ItemName02: !str64 Item_Mushroom_F
+      ItemName02: !str64 Item_Mushroom_F # Hearty Truffle
       ItemProbability02: 20.0
-      ItemName03: !str64 Item_Mushroom_N
+      ItemName03: !str64 Item_Mushroom_N # Big Hearty Truffle
       ItemProbability03: 5.0
-      ItemName04: !str64 Obj_ArrowBundle_A_01
+      ItemName04: !str64 Obj_ArrowBundle_A_01 # Arrow x5
       ItemProbability04: 40.0
     BigHit(Normal): !obj
       RepeatNumMin: 1
@@ -58,11 +58,11 @@ param_root: !list
       ApproachType: 0
       OccurrenceSpeedType: 0
       ColumnNum: 3
-      ItemName01: !str64 Armor_225_Head
+      ItemName01: !str64 Armor_225_Head # Fierce Deity Mask
       ItemProbability01: 34.0
-      ItemName02: !str64 Armor_225_Upper
+      ItemName02: !str64 Armor_225_Upper # Fierce Deity Armor
       ItemProbability02: 33.0
-      ItemName03: !str64 Armor_225_Lower
+      ItemName03: !str64 Armor_225_Lower # Fierce Deity Boots
       ItemProbability03: 33.0
     BigHit(Parasail): !obj
       RepeatNumMin: 1
@@ -70,11 +70,11 @@ param_root: !list
       ApproachType: 0
       OccurrenceSpeedType: 0
       ColumnNum: 3
-      ItemName01: !str64 Armor_225_Head
+      ItemName01: !str64 Armor_225_Head # Fierce Deity Mask
       ItemProbability01: 34.0
-      ItemName02: !str64 Armor_225_Upper
+      ItemName02: !str64 Armor_225_Upper # Fierce Deity Armor
       ItemProbability02: 33.0
-      ItemName03: !str64 Armor_225_Lower
+      ItemName03: !str64 Armor_225_Lower # Fierce Deity Boots
       ItemProbability03: 33.0
     BigHit(Remain): !obj
       RepeatNumMin: 1
@@ -82,13 +82,13 @@ param_root: !list
       ApproachType: 0
       OccurrenceSpeedType: 0
       ColumnNum: 4
-      ItemName01: !str64 Weapon_Lsword_060
+      ItemName01: !str64 Weapon_Lsword_060 # Fierce Deity Sword
       ItemProbability01: 25.0
-      ItemName02: !str64 Armor_225_Head
+      ItemName02: !str64 Armor_225_Head # Fierce Deity Mask
       ItemProbability02: 25.0
-      ItemName03: !str64 Armor_225_Upper
+      ItemName03: !str64 Armor_225_Upper # Fierce Deity Armor
       ItemProbability03: 25.0
-      ItemName04: !str64 Armor_225_Lower
+      ItemName04: !str64 Armor_225_Lower # Fierce Deity Boots
       ItemProbability04: 25.0
     GreatHit(Normal): !obj
       RepeatNumMin: 1
@@ -96,11 +96,11 @@ param_root: !list
       ApproachType: 0
       OccurrenceSpeedType: 0
       ColumnNum: 3
-      ItemName01: !str64 Armor_225_Head
+      ItemName01: !str64 Armor_225_Head # Fierce Deity Mask
       ItemProbability01: 34.0
-      ItemName02: !str64 Armor_225_Upper
+      ItemName02: !str64 Armor_225_Upper # Fierce Deity Armor
       ItemProbability02: 33.0
-      ItemName03: !str64 Armor_225_Lower
+      ItemName03: !str64 Armor_225_Lower # Fierce Deity Boots
       ItemProbability03: 33.0
     GreatHit(Parasail): !obj
       RepeatNumMin: 1
@@ -108,11 +108,11 @@ param_root: !list
       ApproachType: 0
       OccurrenceSpeedType: 0
       ColumnNum: 3
-      ItemName01: !str64 Armor_225_Head
+      ItemName01: !str64 Armor_225_Head # Fierce Deity Mask
       ItemProbability01: 34.0
-      ItemName02: !str64 Armor_225_Upper
+      ItemName02: !str64 Armor_225_Upper # Fierce Deity Armor
       ItemProbability02: 33.0
-      ItemName03: !str64 Armor_225_Lower
+      ItemName03: !str64 Armor_225_Lower # Fierce Deity Boots
       ItemProbability03: 33.0
     GreatHit(Remain): !obj
       RepeatNumMin: 1
@@ -120,12 +120,12 @@ param_root: !list
       ApproachType: 0
       OccurrenceSpeedType: 0
       ColumnNum: 4
-      ItemName01: !str64 Weapon_Lsword_060
+      ItemName01: !str64 Weapon_Lsword_060 # Fierce Deity Sword
       ItemProbability01: 25.0
-      ItemName02: !str64 Armor_225_Head
+      ItemName02: !str64 Armor_225_Head # Fierce Deity Mask
       ItemProbability02: 25.0
-      ItemName03: !str64 Armor_225_Upper
+      ItemName03: !str64 Armor_225_Upper # Fierce Deity Armor
       ItemProbability03: 25.0
-      ItemName04: !str64 Armor_225_Lower
+      ItemName04: !str64 Armor_225_Lower # Fierce Deity Boots
       ItemProbability04: 25.0
   lists: {}

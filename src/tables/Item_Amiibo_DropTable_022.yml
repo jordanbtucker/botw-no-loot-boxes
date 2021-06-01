@@ -20,7 +20,7 @@ param_root: !list
       ApproachType: 0
       OccurrenceSpeedType: 0
       ColumnNum: 1
-      ItemName01: !str64 Barrel
+      ItemName01: !str64 Barrel # Barrel
       ItemProbability01: 100.0
     SmallHit: !obj
       RepeatNumMin: 1
@@ -28,9 +28,9 @@ param_root: !list
       ApproachType: 0
       OccurrenceSpeedType: 0
       ColumnNum: 2
-      ItemName01: !str64 BarrelBomb
+      ItemName01: !str64 BarrelBomb # Bomb Barrel
       ItemProbability01: 30.0
-      ItemName02: !str64 Obj_ArrowBundle_A_01
+      ItemName02: !str64 Obj_ArrowBundle_A_01 # Arrow x5
       ItemProbability02: 70.0
     BigHit(Normal): !obj
       RepeatNumMin: 1
@@ -38,11 +38,11 @@ param_root: !list
       ApproachType: 0
       OccurrenceSpeedType: 0
       ColumnNum: 3
-      ItemName01: !str64 Armor_230_Head
+      ItemName01: !str64 Armor_230_Head # Cap of the Hero
       ItemProbability01: 34.0
-      ItemName02: !str64 Armor_230_Upper
+      ItemName02: !str64 Armor_230_Upper # Tunic of the Hero
       ItemProbability02: 33.0
-      ItemName03: !str64 Armor_230_Lower
+      ItemName03: !str64 Armor_230_Lower # Trousers of the Hero
       ItemProbability03: 33.0
     BigHit(Parasail): !obj
       RepeatNumMin: 1
@@ -50,11 +50,11 @@ param_root: !list
       ApproachType: 0
       OccurrenceSpeedType: 0
       ColumnNum: 3
-      ItemName01: !str64 Armor_230_Head
+      ItemName01: !str64 Armor_230_Head # Cap of the Hero
       ItemProbability01: 34.0
-      ItemName02: !str64 Armor_230_Upper
+      ItemName02: !str64 Armor_230_Upper # Tunic of the Hero
       ItemProbability02: 33.0
-      ItemName03: !str64 Armor_230_Lower
+      ItemName03: !str64 Armor_230_Lower # Trousers of the Hero
       ItemProbability03: 33.0
     BigHit(Remain): !obj
       RepeatNumMin: 1
@@ -62,13 +62,13 @@ param_root: !list
       ApproachType: 0
       OccurrenceSpeedType: 0
       ColumnNum: 4
-      ItemName01: !str64 Armor_230_Head
+      ItemName01: !str64 Armor_230_Head # Cap of the Hero
       ItemProbability01: 25.0
-      ItemName02: !str64 Armor_230_Upper
+      ItemName02: !str64 Armor_230_Upper # Tunic of the Hero
       ItemProbability02: 25.0
-      ItemName03: !str64 Armor_230_Lower
+      ItemName03: !str64 Armor_230_Lower # Trousers of the Hero
       ItemProbability03: 25.0
-      ItemName04: !str64 Weapon_Sword_058
+      ItemName04: !str64 Weapon_Sword_058 # Sword
       ItemProbability04: 25.0
     GreatHit(Normal): !obj
       RepeatNumMin: 1
@@ -76,11 +76,11 @@ param_root: !list
       ApproachType: 0
       OccurrenceSpeedType: 0
       ColumnNum: 3
-      ItemName01: !str64 Armor_230_Head
+      ItemName01: !str64 Armor_230_Head # Cap of the Hero
       ItemProbability01: 34.0
-      ItemName02: !str64 Armor_230_Upper
+      ItemName02: !str64 Armor_230_Upper # Tunic of the Hero
       ItemProbability02: 33.0
-      ItemName03: !str64 Armor_230_Lower
+      ItemName03: !str64 Armor_230_Lower # Trousers of the Hero
       ItemProbability03: 33.0
     GreatHit(Parasail): !obj
       RepeatNumMin: 1
@@ -88,11 +88,11 @@ param_root: !list
       ApproachType: 0
       OccurrenceSpeedType: 0
       ColumnNum: 3
-      ItemName01: !str64 Armor_230_Head
+      ItemName01: !str64 Armor_230_Head # Cap of the Hero
       ItemProbability01: 34.0
-      ItemName02: !str64 Armor_230_Upper
+      ItemName02: !str64 Armor_230_Upper # Tunic of the Hero
       ItemProbability02: 33.0
-      ItemName03: !str64 Armor_230_Lower
+      ItemName03: !str64 Armor_230_Lower # Trousers of the Hero
       ItemProbability03: 33.0
     GreatHit(Remain): !obj
       RepeatNumMin: 1
@@ -100,12 +100,12 @@ param_root: !list
       ApproachType: 0
       OccurrenceSpeedType: 0
       ColumnNum: 4
-      ItemName01: !str64 Armor_230_Head
+      ItemName01: !str64 Armor_230_Head # Cap of the Hero
       ItemProbability01: 25.0
-      ItemName02: !str64 Armor_230_Upper
+      ItemName02: !str64 Armor_230_Upper # Tunic of the Hero
       ItemProbability02: 25.0
-      ItemName03: !str64 Armor_230_Lower
+      ItemName03: !str64 Armor_230_Lower # Trousers of the Hero
       ItemProbability03: 25.0
-      ItemName04: !str64 Weapon_Sword_058
+      ItemName04: !str64 Weapon_Sword_058 # Sword
       ItemProbability04: 25.0
   lists: {}
