@@ -92,8 +92,8 @@ param_root: !list
       ApproachType: 0
       OccurrenceSpeedType: 0
       ColumnNum: 1
-      ItemName02: !str64 Weapon_Lsword_057 # Sword of the Six Sages
-      ItemProbability02: 100.0
+      ItemName01: !str64 Weapon_Lsword_057 # Sword of the Six Sages
+      ItemProbability01: 100.0
     GreatHit(Normal): !obj
       RepeatNumMin: 1
       RepeatNumMax: 1
@@ -114,6 +114,6 @@ param_root: !list
       ApproachType: 0
       OccurrenceSpeedType: 0
       ColumnNum: 1
-      ItemName02: !str64 Weapon_Lsword_057 # Sword of the Six Sages
-      ItemProbability02: 100.0
+      ItemName01: !str64 Weapon_Lsword_057 # Sword of the Six Sages
+      ItemProbability01: 100.0
   lists: {}
