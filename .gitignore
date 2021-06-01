@@ -1,1 +1,5 @@
-/content
+/dist
+/out
+/src/packs/**/*
+!/src/packs/.gitkeep
+/tmp
