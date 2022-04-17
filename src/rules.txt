@@ -1,0 +1,6 @@
+[Definition]
+titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
+name = No Loot Boxes
+path = The Legend of Zelda: Breath of the Wild/Mods/No Loot Boxes
+description = Guarantees exclusive items from amiibo
+version = 4

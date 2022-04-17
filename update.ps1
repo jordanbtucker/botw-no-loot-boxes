@@ -25,6 +25,3 @@ Get-ChildItem -File "$packsDir\*.sbactorpack" | ForEach-Object {
   $baseName = $_.BaseName
   sarc u "$extractRoot\$baseName" "$outDir\$baseName.sbactorpack"
 }
-
-# Copy info.json
-Copy-Item -Force .\src\info.json "$outRoot\info.json"

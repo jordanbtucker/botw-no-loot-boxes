@@ -1,2 +1,4 @@
 aamp~=1.4
+bcml~=3.8
+bnptool~=1.0
 sarc~=2.0
