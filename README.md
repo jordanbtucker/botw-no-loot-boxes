@@ -29,7 +29,7 @@ progression requirements, however. For example, in order to have a chance at
 receiving the Twilight Bow from the Smash Bros. Zelda amiibo, you have to have
 completed at least one Divine Beast. With this mod, you still have to complete
 at least one Divine Beast, but you're guarateed to get the Twilight Bow each
-time you use amiibo after that.
+time you use the amiibo after that.
 
 ## Drop Tables
 
